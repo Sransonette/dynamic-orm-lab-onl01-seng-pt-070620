@@ -12,17 +12,5 @@ class Student < InteractiveRecord
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
 end
