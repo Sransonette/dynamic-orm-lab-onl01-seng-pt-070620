@@ -60,7 +60,7 @@ class InteractiveRecord
   
   def self.find_by(name)
     sql = "SELECT * FROM #{self.table_name} WHERE name = ?"
-    binding.pry
+    #binding.pry
     
     DB[:conn].execute( name)
     
